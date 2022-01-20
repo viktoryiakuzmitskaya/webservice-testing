@@ -1,0 +1,25 @@
+{
+  "name": "webservice-testing",
+  "version": "1.0.0",
+  "description": "webservice-testing for https://jsonplaceholder.typicode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config ./test/config/mocha.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktoryiakuzmitskaya/webservice-testing.git"
+  },
+  "author": "Viktoryia Kuzmitskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktoryiakuzmitskaya/webservice-testing/issues"
+  },
+  "homepage": "https://github.com/viktoryiakuzmitskaya/webservice-testing#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4",
+    "mochawesome": "^7.0.1"
+  }
+}
