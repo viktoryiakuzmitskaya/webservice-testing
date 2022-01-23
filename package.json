@@ -4,7 +4,7 @@
   "description": "webservice-testing for https://jsonplaceholder.typicode.com/",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --config ./test/config/mocha.config.js"
+    "test": "mocha --config ./test/config/mocha.config.js --require mochawesome/register"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "mocha": "^9.1.4",
     "mochawesome": "^7.0.1",
     "winston": "^3.4.0",
-    "winston-daily-rotate-file": "^4.5.5"
+    "winston-daily-rotate-file": "^4.5.5",
+    "yargs": "^17.3.1"
   }
 }
